@@ -21,7 +21,7 @@ def writing_file(list_of_files,a):
 		for file in list_of_files:
 			for element in file:
 				file_obj.write(f'{element}\n')			
-	file_path = '4.txt'
+	file_path = '3/4.txt'
 	return file_path
 	
-print(writing_file(number_line, '4.txt'))
+print(writing_file(number_line, '3/4.txt'))
